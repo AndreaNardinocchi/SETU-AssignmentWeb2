@@ -27,6 +27,9 @@ As a user opens up the Whether Weather AN Homepage, they will see a sticky nav b
 The Navbar show all items that user needs for a comfortable and friendly navigation. There is also a dropdown listing all cities (upon clicking a city, a user will land to the city-focus page of that city).
 The nav (nav.njk partial) also contains the logo, which is clickable and links to the Homepage/Dashboard 'index.njk'.
 
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/6e8a2138-d76d-42f2-9ea4-5f8360d044b0)
+
+
 #### Source attribution
 
 Apart from the official bulma documentation in:
@@ -38,6 +41,9 @@ I also studied some examples online such as *https://www.geeksforgeeks.org/bulma
 
 This element is just a layer added below the menu to give the website a more elevated touch when scrolling down the page. It has practically an aesthetic purpose which is to make the website easy on the eyes of the user. As a matter of fact, the lighter background color used in here 'has-background-info-light', accompany the user's eyes when moving from the navbar ('has-background-info') to the Banner (has-background-primary-light).
 
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/76baf156-d38b-4aef-abe7-0667af8c9a06)
+
+
 (header.njk partial).
 
 ### Banner
@@ -45,7 +51,8 @@ This element is just a layer added below the menu to give the website a more ele
 Right below the sticky nav bar, the user will see a bigger version of the logo added to the navbar and a centered heading letting the user know that he is seeing the dashboard.
 
 
-add image
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/65b77828-6cbc-4175-9709-2f8b6614df2f)
+
 
 
 ### City cards Grid
@@ -61,7 +68,8 @@ image to add
 
 Each card shows the city name on the top center, an image, right below, (I call it icon throughout the project) representative of the daily weather, and, in the footer, maximun temperature and wind speed at 10 meters (dayly data).
 
-image to add
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/7fa8d6ab-b5bc-4abe-8b36-bc2fa54b4304)
+
 
 To ensure that the correct icon is shown based upon the weather code, the following if statements have been used:
 
@@ -110,7 +118,8 @@ At the bottom of the page there is a footer (footer.njk partial), whose layout i
 While the first column shows an Irish address, the rest of the columns show nav lonks split into 2 columns and some contact details in the last column.
 Additionally, there is an underfooter with the 'whether weather' icon again to boost brand awareness and a string with developer linkedin link.
 
-image to add
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/cd61f7ca-e4df-4db4-8703-92e754c67ace)
+
 
 #### Source attribution
 
@@ -119,6 +128,9 @@ https://bulma.io/documentation/layout/footer/
 ## City Focus page
 
 One interesting element here, apart from the use of the URL Search Params such as ex. '/city-focus/?city=berlin' is the way the city name fetched from the weather_data.js was manipulated to render in a nice way and readable.
+
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/bc7e447a-16c7-4a3c-8812-227897e8ca9c)
+
 
 The code is shown below:
 
@@ -158,7 +170,8 @@ A key role here is played by the 'map()' method , which creates a new array with
 ### Right Now card
 This is the page where a user lands after clicking on one of the city cards in the Dashboard.
 
-add image
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/b4498cc1-e67f-4d0b-8f03-db1713abd41f)
+
 
 On the top right, there is a card with weatherData dayly data and the current date and hour. This card is 'dynamic' in the sense that changes its data and icon every hour.
 This has been achieved by setting up a const variable 'indexOfCurrentHour' as per the below code:
@@ -220,17 +233,20 @@ Right below the 'Right Now' card there is a 4 colum layout, which shows 2 foreca
    }
 
 ```
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/364c6478-2d24-4dc6-968c-ce56fa500642)
 
 ### Modal
 
 The modal is shown after clicking on the button 'Check more forecasts':
 
-add image
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/34d7c8ae-55a6-4e28-92ba-2d6c02ee7996)
+
 
 It has been used to shown some more dayly data and not to clutter up the page with an excessive amount of it as it is already showing quite a bit of information.
 To nicely present the data to the user, a table element has been used.
 
-add image
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/ab57b9fd-e31c-4e91-be42-3004d48d4380)
+
 
 #### Source attribution
 
@@ -243,7 +259,8 @@ https://www.geeksforgeeks.org/bulma-modal/
 
 This 7 column section layout has been achieved by using a plain class 'column' which has filled the 'columns' container with equally-sized columns.
 
-add image
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/d7627e5c-876a-4d53-88f5-abea978a6bbf)
+
 
 This is an interesting section as each element of these cards is dynamic.
 The Header for instance is a day name and changes according to the current date. I was able to achive this by using the functions below which I got from an online source and refactored to adapt it to my project goal:
@@ -379,7 +396,7 @@ https://bobbyhadz.com/blog/javascript-get-date-of-next-monday
 
 This component is a card embedded in a 'container' followed by a 'columns' class and it is in the 'back-to-dashboard.njk' partial.
 
-add image
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/a9660bb5-c97b-43da-81f5-f68b05dc1be2)
 
 ## Lifestyle page
 
@@ -388,24 +405,28 @@ It shows a variegated layout (lifestyle.njk).
 
 ### Search Bar
 
-add image
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/444a89cf-b074-46c3-9a14-7c6f75bf1928)
+
 
 ### Destinations Video
 
 This has been achieved by using a Bulma image component embedded into a 'box' class and a Youtube video is, in turn, embedded into it.
 
-add image
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/c82650e5-6546-41dd-9b06-05477d77e841)
+
 
 ### Blog
 This is a 4 column layout section made of 4 Bulma cards with images.
 At the bottom of each card, there isa 'Reade more' CTA, but it is 'performative' as the link gets the user back to the dashboard.
 
-add image
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/e9b8e792-b871-427e-b529-57ab99f674b9)
+
 
 ### Things to do
 Her, the only difference with the above section is the 3 column layout.
 
-add image
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/e70f2e74-d7bb-4827-a847-042db68685a8)
+
 
 
 #### Source attribution
@@ -421,6 +442,9 @@ https://pixabay.com/
 
 This page is supposed to be a 'news' page to get travelers up to speed with the latest about tourist destinations.
 The interesting part here is the split layout, as on the left side (main layout) we have a blog made of boxes succeeding one another, whereas, on the rigth side, there is an 'aside tagged' element (sidebar.njk partial).
+
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/e128f971-e79f-4cd6-80bc-96db3ba34249)
+
 
 #### Source attribution
 
