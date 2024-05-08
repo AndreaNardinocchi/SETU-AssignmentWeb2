@@ -398,6 +398,17 @@ This component is a card embedded in a 'container' followed by a 'columns' class
 
 ![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/a9660bb5-c97b-43da-81f5-f68b05dc1be2)
 
+## Settings page
+
+This page was meant to be a preferences user interface where preferences were saved in a Local Storage, but, unfortunately, due to time constraints as well as the fact that I did not utilize a Layered JavaScript Architecture, I could not get this step completed.
+
+![image](https://github.com/AndreaNardinocchi/SETU-AssignmentWeb2/assets/51911079/27cf1311-000a-4073-949e-80c5081bb5a5)
+
+In a nutshell, the page layout is a three column one ("column-is-4" class) and added 2 cards with labels class="checkbox".
+
+Unfortunately, this is just a static page with no use for a user at this time.
+
+
 ## Lifestyle page
 
 This page is basically a blog embedded into the website and users can supposedly use the search bar on the top to search for a tourist destination (I found it interesting to combine the 2 subjects).
